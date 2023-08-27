@@ -4,6 +4,8 @@
 }
 .header-banner{
     height: 6rem;
+    width: 100%;
+    
     display: inline-flex;
     align-items: center;
     justify-content: center;
