@@ -1,0 +1,146 @@
+:root{
+    --lg: 3.6rem;
+    --md: 1.8rem;
+    --sm: 1.4rem;
+    --x-sm: 1.2rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+.background-video{
+    z-index: -10;
+    position: fixed;
+
+    height: 100vh;
+
+    bottom: 0;
+    left: 0;
+    object-fit: cover;    
+}
+/*Header styles*/
+.header-section{    
+    color: white;
+    font-size: var(--sm);
+    line-height: 1.8rem;
+}
+.header-banner{
+    text-align: center;
+
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    background-color: white;
+
+    height: cover;
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
+    
+}
+.header-banner-msg_bigger{
+    margin-right: 1rem;
+}
+.link{
+    color: white;
+    margin-left: 1rem;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+.header-logo{
+    height: 1.5rem;
+}
+.header-menu-button{
+    font-family: 'Quicksand';
+    color: white;
+    background: #4b4c4f;
+    padding: 0.5rem 1rem;
+    outline: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 82vh;
+}
+/*Main container*/
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+
+    color: white;
+}
+.text{
+    margin-bottom: 0.8rem;
+}
+.main-container-text{
+    text-align: center;
+
+}
+.main-container-title{
+    font-size: var(--lg);
+
+}
+.main-container-subtitle{
+    font-size: var(--md);
+}
+.main-container-msg{
+    font-size: x-small;
+}
+
+.main-container-buttons{
+    padding: 0 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.button{
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+
+    font-size: var(--sm);
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.primary-button{
+   background-color: rgba(255, 255, 255, 0.8);
+}
+.secondary-button{
+    background-color: rgba(34, 34, 34, 0.65);
+}
+
+/*Footer styles*/
+.footer-section{
+    text-align: center;
+    font-size: var(--sm);
+
+    color: white;
+    margin: 1rem 2rem;
+}
+.footer-section-about{
+    color: white;
+}

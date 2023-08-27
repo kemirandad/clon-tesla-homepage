@@ -1,0 +1,16 @@
+
+.header-banner-msg_bigger{
+    font-size: 1.8rem;
+}
+.main-container-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+
+    margin-bottom: 2rem;
+}
+.button{
+    padding: 1rem 10rem;
+    font-weight: bold;
+}
