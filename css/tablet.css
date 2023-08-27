@@ -1,4 +1,13 @@
-
+.background-video{
+    object-fit: cover;
+    width: 100%;
+}
+.header-banner{
+    height: 6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 .header-banner-msg_bigger{
     font-size: 1.8rem;
 }
